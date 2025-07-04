@@ -1,0 +1,21 @@
+.page {
+  padding: 4rem 2rem;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--text);
+  }
+
+  p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    line-height: 1.6;
+    color: var(--text);
+  }
+}
