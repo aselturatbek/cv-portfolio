@@ -3,11 +3,28 @@
   "about": "About Me",
   "projects": "Projects",
   "contact": "Contact",
-  "welcomeMessage": "Welcome! I'm Furkan. This is my personal portfolio website.",
-  "aboutContent": "I'm a student of Computer Technology and Information Systems. I love building things and coding creative solutions.",
-  "projectsContent": "Here you can explore the projects I've worked on and learn more about my development experience.",
-  "contactContent": "If you'd like to get in touch with me, feel free to use one of the contact methods below.",
 
   "home.title": "Full Stack<br />Developer",
-  "home.intro": "Hi, I’m <strong>Asel Turatbek Kyzy</strong><br />Turning innovative ideas into clean, scalable,<br />and user-focused <i>web & mobile</i> solutions."
+  "home.intro": "Hi, I’m <strong>Asel Turatbek Kyzy</strong><br />Turning innovative ideas into clean, scalable,<br />and user-focused <i>web & mobile</i> solutions.",
+  
+  "about.titleTag": "About Me", 
+  "about.title": "Discover Who I Am",
+  
+  "about.profile": "I'm a full-stack developer passionate about turning real-world ideas into impactful applications. I’ve worked on various web and mobile projects, some of them funded by TÜBİTAK, handling both frontend and backend tasks. I'm always eager to learn and grow in collaborative environments.",
+
+  "about.educationTitle": "Education",
+  "about.uni": "Bartin University, Faculty of Science",
+  "about.degree": "B.Sc. in Computer Technology and Information Systems",
+  "about.gpa": "GPA: 3.17 / 4.00",
+
+  "about.experienceTitle": "Experience",
+  "about.exp1": "Azerion (Oct 2024 – Present)\nInternship – Worked on humoq.com (Next.js + Go), voidu.com admin flow, and thegurume.com AI features using Nest.js and MongoDB.",
+  "about.exp2": "Freelance (Oct 2024 – Dec 2024)\nLed the development of a real-time social app (React Native + Node.js + Firebase).",
+
+  "about.skillsTitle": "Tech Stack",
+  "about.languagesTitle": "Languages",
+  "about.lang1": "English – B2+ (Professional)",
+  "about.lang2": "Turkish – C2 (Advanced)",
+  "about.lang3": "Russian – C2 (Advanced)",
+  "about.lang4": "Kyrgyz – Native"
 }

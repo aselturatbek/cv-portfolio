@@ -3,11 +3,28 @@
   "about": "Hakkımda",
   "projects": "Projeler",
   "contact": "İletişim",
-  "welcomeMessage": "Hoş geldin! Ben Furkan. Bu benim kişisel portfolyo sitem.",
-  "aboutContent": "Bilgisayar Teknolojisi ve Bilişim Sistemleri öğrencisiyim. Üretmeyi ve yaratıcı çözümler kodlamayı seviyorum.",
-  "projectsContent": "Üzerinde çalıştığım projeleri ve deneyimlerimi burada keşfedebilirsiniz.",
-  "contactContent": "Benimle iletişime geçmek isterseniz, aşağıdaki yöntemleri kullanabilirsiniz.",
 
   "home.title": "Full Stack<br />Geliştirici",
-  "home.intro": "Merhaba, ben <strong>Asel Turatbek Kyzy</strong><br />Yenilikçi fikirleri sade, ölçeklenebilir ve<br />kullanıcı odaklı <i>web & mobil</i> çözümlere dönüştürüyorum."
+  "home.intro": "Merhaba, ben <strong>Asel Turatbek Kyzy</strong><br />Yenilikçi fikirleri sade, ölçeklenebilir ve<br />kullanıcı odaklı <i>web & mobil</i> çözümlere dönüştürüyorum.",
+  
+  "about.titleTag": "Hakkımda",
+  "about.title": "Beni Tanıyın",
+  
+  "about.profile": "Gerçek dünya projelerini hayata geçirmeye tutkuyla bağlı bir full-stack geliştiriciyim. TÜBİTAK destekli projeler dahil birçok web ve mobil projede hem frontend hem de backend görevleri üstlendim. Takım çalışmasına açık, öğrenmeye istekli ve gelişime odaklıyım.",
+
+  "about.educationTitle": "Eğitim",
+  "about.uni": "Bartın Üniversitesi, Fen Fakültesi",
+  "about.degree": "Bilgisayar Teknolojisi ve Bilişim Sistemleri Lisans",
+  "about.gpa": "Genel Not Ortalaması: 3.17 / 4.00",
+
+  "about.experienceTitle": "Deneyim",
+  "about.exp1": "Azerion (Ekim 2024 – Devam Ediyor)\nStajyer – humoq.com (Next.js + Go), voidu.com yönetim paneli ve thegurume.com AI özellikleri (Nest.js, MongoDB) üzerinde çalıştı.",
+  "about.exp2": "Freelance (Ekim 2024 – Aralık 2024)\nGerçek zamanlı sosyal medya uygulaması geliştirdi (React Native + Node.js + Firebase).",
+
+  "about.skillsTitle": "Teknoloji Yığını",
+  "about.languagesTitle": "Diller",
+  "about.lang1": "İngilizce – Profesyonel İş Yeterliliği (B2+)",
+  "about.lang2": "Türkçe – İleri Seviye (C2)",
+  "about.lang3": "Rusça – İleri Seviye (C2)",
+  "about.lang4": "Kırgızca – Ana Dil"
 }

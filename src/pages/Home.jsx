@@ -11,7 +11,8 @@ import {
   SiTypescript, SiNestjs, SiMongodb,
   SiMysql, SiFirebase, SiJira
 } from "react-icons/si";
-
+import "./About.jsx";
+import About from "./About.jsx";
 const technologies = [
   { icon: <FaJsSquare />, name: "JavaScript" },
   { icon: <SiTypescript />, name: "TypeScript" },
@@ -66,6 +67,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <About />
     </section>
   );
 };
