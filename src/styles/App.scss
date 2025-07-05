@@ -1,11 +1,13 @@
 :root {
   --bg: #ffffff;
   --text: #121212;
+  --bg-soft: #f3f3f3;
 }
 
 html[data-theme='dark'] {
   --bg: #121212;
   --text: #ffffff;
+  --bg-soft: #222222;
 }
 
 

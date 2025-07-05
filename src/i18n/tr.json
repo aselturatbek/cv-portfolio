@@ -4,7 +4,10 @@
   "projects": "Projeler",
   "contact": "İletişim",
   "welcomeMessage": "Hoş geldin! Ben Furkan. Bu benim kişisel portfolyo sitem.",
-  "aboutContent": "Ben bilgisayar teknolojisi ve bilişim sistemleri öğrencisiyim. Geliştirme yapmayı seviyorum.",
-  "projectsContent": "Burada üzerinde çalıştığım projeleri ve detaylarını görebilirsiniz.",
-  "contactContent": "Benimle iletişime geçmek isterseniz aşağıdaki kanalları kullanabilirsiniz."
+  "aboutContent": "Bilgisayar Teknolojisi ve Bilişim Sistemleri öğrencisiyim. Üretmeyi ve yaratıcı çözümler kodlamayı seviyorum.",
+  "projectsContent": "Üzerinde çalıştığım projeleri ve deneyimlerimi burada keşfedebilirsiniz.",
+  "contactContent": "Benimle iletişime geçmek isterseniz, aşağıdaki yöntemleri kullanabilirsiniz.",
+
+  "home.title": "Full Stack<br />Geliştirici",
+  "home.intro": "Merhaba, ben <strong>Asel Turatbek Kyzy</strong><br />Yenilikçi fikirleri sade, ölçeklenebilir ve<br />kullanıcı odaklı <i>web & mobil</i> çözümlere dönüştürüyorum."
 }
