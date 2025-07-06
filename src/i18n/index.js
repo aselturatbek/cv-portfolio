@@ -5,7 +5,7 @@ import tr from './tr.json';
 
 i18n.use(initReactI18next).init({
   resources: { en: { translation: en }, tr: { translation: tr } },
-  lng: 'tr',
-  fallbackLng: 'en',
+  lng: 'en',
+  fallbackLng: 'tr',
   interpolation: { escapeValue: false }
 });
