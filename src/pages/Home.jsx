@@ -25,8 +25,6 @@ const technologies = [
   { icon: <SiMongodb />, name: "MongoDB" },
   { icon: <SiMysql />, name: "MySQL" },
   { icon: <SiFirebase />, name: "Firebase" },
-  { icon: <FaHtml5 />, name: "HTML5" },
-  { icon: <FaCss3Alt />, name: "CSS3" },
   { icon: <FaBootstrap />, name: "Bootstrap" },
   { icon: <FaGitAlt />, name: "Git" },
   { icon: <FaGithub />, name: "GitHub" },

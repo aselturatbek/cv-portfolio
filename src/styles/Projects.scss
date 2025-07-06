@@ -181,19 +181,28 @@
 @media (max-width: 768px) {
   .projects-section-v2 {
     padding: 3rem 1rem 1rem;
-    width: 450px;
+    width: 370px;
 
     .projects-header h1 {
-      font-size: 1.8rem;
+      font-size: 1.4rem;
+      padding: 0 1rem;
+      text-align: left;
     }
+    .tag-btn {
+        display: block;
+        margin-left: 1rem;
+       ;
+        margin-bottom: 1rem;
+        padding: 0.6rem 1.5rem;
+        font-size: 0.85rem;
+      }
 
     .project-card-v2 {
       flex-direction: column;
 
       .project-image {
         width: 100%;
-        max-width: 280px;
-        margin: 0 auto;
+        max-width: 250px;
 
         img {
           height: auto;
