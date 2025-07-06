@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { ThemeProvider } from "./context/ThemeContext";
@@ -15,6 +16,7 @@ const App = () => {
   return (
     <ThemeProvider>
       <HashRouter>
+        <ScrollToTop />
         <Navbar />
         <main className="main-content">
           <Routes>

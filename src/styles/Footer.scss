@@ -8,7 +8,6 @@
   background-color: var(--bg);
   color: var(--text);
   flex-wrap: wrap;
-  gap: 1rem;
 
   .footer-left,
   .footer-right {
@@ -21,8 +20,6 @@
     gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;
-    flex: 1 1 100%;
-    order: 3;
   }
 
   .footer-btn {
@@ -46,35 +43,5 @@
     display: flex;
     align-items: center;
     gap: 0.3rem;
-  }
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 1.2rem 1rem;
-
-    .footer-left,
-    .footer-right {
-      margin: 0.3rem 0;
-    }
-
-    .footer-left {
-      order: 1;
-    }
-
-    .footer-right {
-      order: 2;
-    }
-
-    .footer-center {
-      order: 3;
-      justify-content: center;
-    }
-
-    .footer-btn {
-      font-size: 0.8rem;
-      padding: 0.4rem 0.9rem;
-    }
   }
 }
