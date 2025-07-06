@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -14,7 +14,7 @@ import "./styles/App.scss";
 const App = () => {
   return (
     <ThemeProvider>
-      <BrowserRouter>
+      <HashRouter>
         <Navbar />
         <main className="main-content">
           <Routes>
@@ -25,7 +25,7 @@ const App = () => {
           </Routes>
         </main>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </ThemeProvider>
   );
 };
