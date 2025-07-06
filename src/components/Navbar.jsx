@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import ThemeToggle from './ThemeToggle';
 import LanguageSwitcher from './LanguageSwitcher';
@@ -9,17 +8,29 @@ const Navbar = () => {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
 
+  const scrollTo = (id) => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' });
+      setIsOpen(false);
+    }
+  };
+
+  const handleHomeClick = () => {
+    window.location.reload(); // sadece home'a özel
+  };
+
   return (
     <header className="navbar">
       <div className="navbar__left">
-        <Link to="/" className="navbar__logo">Asel Turatbek</Link>
+        <span className="navbar__logo" onClick={handleHomeClick}>Asel Turatbek</span>
       </div>
 
       <div className={`navbar__center ${isOpen ? 'open' : ''}`}>
-        <Link to="/" onClick={() => setIsOpen(false)}>{t('home')}</Link>
-        <Link to="/about" onClick={() => setIsOpen(false)}>{t('about')}</Link>
-        <Link to="/projects" onClick={() => setIsOpen(false)}>{t('projects')}</Link>
-        <Link to="/contact" onClick={() => setIsOpen(false)}>{t('contact')}</Link>
+        <span onClick={handleHomeClick}>{t('home')}</span>
+        <span onClick={() => scrollTo('about')}>{t('about')}</span>
+        <span onClick={() => scrollTo('projects')}>{t('projects.navbar')}</span>
+        <span onClick={() => scrollTo('contact')}>{t('contact')}</span>
       </div>
 
       <div className="navbar__right">

@@ -1,15 +1,15 @@
 {
   "home": "Anasayfa",
   "about": "Hakkımda",
-  "projects": "Projeler",
+  "projects.navbar": "Projelerim",
   "contact": "İletişim",
 
   "home.title": "Full Stack<br />Geliştirici",
   "home.intro": "Merhaba, ben <strong>Asel Turatbek Kyzy</strong><br />Yenilikçi fikirleri sade, ölçeklenebilir ve<br />kullanıcı odaklı <i>web & mobil</i> çözümlere dönüştürüyorum.",
   
-  "about.titleTag": "Hakkımda",
-  "about.title": "Beni Tanıyın",
-  
+  "about.titleTag": "HAKKIMDA",
+  "about.title": "BENİ KEŞFET",
+  "about.viewCv": "CV'me Göz At",
   "about.profile": "Gerçek dünya projelerini hayata geçirmeye tutkuyla bağlı bir full-stack geliştiriciyim. TÜBİTAK destekli projeler dahil birçok web ve mobil projede hem frontend hem de backend görevleri üstlendim. Takım çalışmasına açık, öğrenmeye istekli ve gelişime odaklıyım.",
 
   "about.educationTitle": "Eğitim",
@@ -21,10 +21,44 @@
   "about.exp1": "Azerion (Ekim 2024 – Devam Ediyor)\nStajyer – humoq.com (Next.js + Go), voidu.com yönetim paneli ve thegurume.com AI özellikleri (Nest.js, MongoDB) üzerinde çalıştı.",
   "about.exp2": "Freelance (Ekim 2024 – Aralık 2024)\nGerçek zamanlı sosyal medya uygulaması geliştirdi (React Native + Node.js + Firebase).",
 
-  "about.skillsTitle": "Teknoloji Yığını",
+  "about.skillsTitle": "Teknolojiler",
   "about.languagesTitle": "Diller",
   "about.lang1": "İngilizce – Profesyonel İş Yeterliliği (B2+)",
   "about.lang2": "Türkçe – İleri Seviye (C2)",
   "about.lang3": "Rusça – İleri Seviye (C2)",
-  "about.lang4": "Kırgızca – Ana Dil"
+  "about.lang4": "Kırgızca – Ana Dil",
+  "projects": {
+    "titleTag": "PROJELERİM",
+    "title": "Geliştirici ve problem çözücü olarak yolculuğumu şekillendiren projelerden öne çıkanlar.",
+    "swipeHint": "← daha fazla görmek için kaydır →",
+
+    "project1": {
+      "title": "MasAI – Yapay Zekâ Destekli Masal Uygulaması",
+      "subtitle": "Fullstack Developer | TÜBİTAK 2209-A | 2025",
+      "description": "Çocuklara özel yapay zekâ ile masal oluşturan mobil uygulama geliştirildi."
+    },
+    "project2": {
+      "title": "EcoOil – Atık Yağ Geri Dönüşüm Uygulaması",
+      "subtitle": "Frontend Developer | TÜBİTAK 2209-A | 2023–2024",
+      "description": "Harita destekli yoğunluk takibiyle atık yağ alımı planlaması sağlayan mobil uygulama."
+    },
+    "project3": {
+      "title": "Güzellik Salonu Yönetim Sistemi",
+      "subtitle": "Fullstack Developer | Geliştiriliyor | 2025–Günümüz",
+      "description": "Randevu ve stok yönetimi sunan, mobil uyumlu panelli web uygulama. RESTful API desteği mevcut."
+    },
+    "project4": {
+      "title": "Gerçek Zamanlı Mesajlaşma Uygulaması",
+      "subtitle": "Fullstack Developer | 2023",
+      "description": "Gerçek zamanlı sohbet odaları ve kullanıcı girişi içeren üniversite projesi (Firebase tabanlı)."
+    }
+  },
+ 
+  "contact.header": "BENİMLE İLETİŞİME GEÇ",
+  "contact.subtext": "Bana bir e-posta gönder:",
+  "contact.github": "GitHub",
+  "contact.linkedin": "LinkedIn",
+  "footer.backToTop": "Başa Dön"
+
+
 }

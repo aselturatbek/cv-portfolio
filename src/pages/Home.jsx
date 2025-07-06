@@ -13,6 +13,9 @@ import {
 } from "react-icons/si";
 import "./About.jsx";
 import About from "./About.jsx";
+import Projects from "./Projects.jsx";
+import Contact from "./Contact.jsx";
+
 const technologies = [
   { icon: <FaJsSquare />, name: "JavaScript" },
   { icon: <SiTypescript />, name: "TypeScript" },
@@ -34,7 +37,7 @@ const Home = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="home-section">
+    <section id="home" className="home-section">
       <div className="home-content">
         <div className="home-text">
           <h1>
@@ -67,7 +70,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <About />
+      <section id="about"><About /></section>
+      <section id="projects"><Projects /></section>
+      <section id="contact"><Contact /></section>
     </section>
   );
 };

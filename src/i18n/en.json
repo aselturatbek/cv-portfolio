@@ -1,15 +1,15 @@
 {
   "home": "Home",
   "about": "About Me",
-  "projects": "Projects",
+  "projects.navbar": "Projects",
   "contact": "Contact",
 
   "home.title": "Full Stack<br />Developer",
   "home.intro": "Hi, I’m <strong>Asel Turatbek Kyzy</strong><br />Turning innovative ideas into clean, scalable,<br />and user-focused <i>web & mobile</i> solutions.",
   
-  "about.titleTag": "About Me", 
-  "about.title": "Discover Who I Am",
-  
+  "about.titleTag": "ABOUT ME", 
+  "about.title": "DISCOVER WHO I AM",
+  "about.viewCv": "View My Resume",
   "about.profile": "I'm a full-stack developer passionate about turning real-world ideas into impactful applications. I’ve worked on various web and mobile projects, some of them funded by TÜBİTAK, handling both frontend and backend tasks. I'm always eager to learn and grow in collaborative environments.",
 
   "about.educationTitle": "Education",
@@ -26,5 +26,38 @@
   "about.lang1": "English – B2+ (Professional)",
   "about.lang2": "Turkish – C2 (Advanced)",
   "about.lang3": "Russian – C2 (Advanced)",
-  "about.lang4": "Kyrgyz – Native"
+  "about.lang4": "Kyrgyz – Native",
+  "projects": {
+    "titleTag": "PROJECTS",
+    "title": "Highlighting projects that shaped my journey as a developer and problem-solver.",
+    "swipeHint": "← swipe to view more →",
+
+    "project1": {
+      "title": "MasAI – AI-Powered Storytelling App",
+      "subtitle": "Fullstack Developer | TÜBİTAK 2209-A | 2025",
+      "description": "Developed a mobile app that generates personalized children's stories using AI."
+    },
+    "project2": {
+      "title": "EcoOil – Waste Oil Recycling App",
+      "subtitle": "Frontend Developer | TÜBİTAK 2209-A | 2023–2024",
+      "description": "Mobile app for scheduling and tracking waste oil pickups with map-based density insights."
+    },
+    "project3": {
+      "title": "Beauty Center Management System",
+      "subtitle": "Fullstack Developer | In Development | 2025–Present",
+      "description": "Web app for beauty centers to manage appointments and inventory. Includes responsive dashboard and RESTful APIs."
+    },
+    "project4": {
+      "title": "Real-Time Messaging App",
+      "subtitle": "Fullstack Developer | 2023",
+      "description": "University project: Real-time messaging with chat rooms, user auth, and live syncing using Firebase."
+    }
+  },
+  "contact.header": "GET IN TOUCH WITH ME",
+  "contact.subtext": "Drop me an email:",
+  "contact.github": "GitHub",
+  "contact.linkedin": "LinkedIn",
+  "footer.backToTop": "Back to Top"
+
+
 }
