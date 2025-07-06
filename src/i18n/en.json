@@ -15,8 +15,7 @@
   "about.educationTitle": "Education",
   "about.uni": "Bartin University, Faculty of Science",
   "about.degree": "B.Sc. in Computer Technology and Information Systems",
-  "about.gpa": "GPA: 3.17 / 4.00",
-
+ 
   "about.experienceTitle": "Experience",
   "about.exp1": "Azerion (Oct 2024 – Present)\nInternship – Worked on humoq.com (Next.js + Go), voidu.com admin flow, and thegurume.com AI features using Nest.js and MongoDB.",
   "about.exp2": "Freelance (Oct 2024 – Dec 2024)\nLed the development of a real-time social app (React Native + Node.js + Firebase).",

@@ -22,7 +22,7 @@ const About = () => {
             <p>
               <strong>{t("about.uni")}</strong><br />
               {t("about.degree")}<br />
-              {t("about.gpa")}
+              
             </p>
           </div>
 
