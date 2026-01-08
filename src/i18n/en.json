@@ -6,30 +6,51 @@
 
   "home.title": "Full Stack<br />Developer",
   "home.intro": "Hi, I’m <strong>Asel Turatbek Kyzy</strong><br />Turning innovative ideas into clean, scalable,<br />and user-focused <i>web & mobile</i> solutions.",
-  
-  "about.titleTag": "ABOUT ME", 
+"home.cta.cv": "Download CV",
+"home.cta.projects": "View Projects",
+
+  "about.titleTag": "ABOUT ME",
   "about.title": "Discover Me",
   "about.viewCv": "View My Resume",
-  "about.profile": "I'm a full-stack developer passionate about turning real-world ideas into impactful applications. I’ve worked on various web and mobile projects, some of them funded by TÜBİTAK, handling both frontend and backend tasks. I'm always eager to learn and grow in collaborative environments.",
+
+  "about.profile": "Full-Stack Developer with hands-on experience building and maintaining web and mobile applications. Skilled in developing RESTful APIs, integrating frontend and backend systems, and delivering scalable, user-focused products. Experienced in Agile environments, code reviews, and taking ownership of features from development to production.",
 
   "about.educationTitle": "Education",
-  "about.uni": "Bartin University, Faculty of Science",
+  "about.uni": "Bartın University – Faculty of Science",
   "about.degree": "B.Sc. in Computer Technology and Information Systems",
- 
-  "about.experienceTitle": "Experience",
-  "about.exp1": "Azerion (Oct 2024 – Present)\nInternship – Worked on humoq.com (Next.js + Go), voidu.com admin flow, and thegurume.com AI features using Nest.js and MongoDB.",
-  "about.exp2": "Freelance (Oct 2024 – Dec 2024)\nLed the development of a real-time social app (React Native + Node.js + Firebase).",
+  "about.eduMeta": "2021–2025 • GPA: 3.17 / 4.00",
 
   "about.skillsTitle": "Tech Stack",
+  "about.stack1": "React / React Native",
+  "about.stack2": "NestJS",
+  "about.stack3": "Node.js / Express",
+  "about.stack4": "MySQL",
+  "about.stack5": "MongoDB",
+  "about.stack6": "Firebase / Firestore",
+  "about.stack7": "HTML",
+  "about.stack8": "CSS / SCSS",
+
+  "about.experienceTitle": "Experience",
+  "about.exp1Title": "Web Developer | Bilimon Medya ve İletişim A.Ş. (Jul 2025 – Present)",
+  "about.exp1Body": "Developed and currently maintain a production-ready interactive digital business card platform used as a commercial solution. Took ownership of the full development lifecycle, built responsive web interfaces, customized WordPress solutions, and supported product workflows using Adobe Creative Suite.",
+  "about.exp2Title": "Internship Trainee – Software Development | Azerion (Oct 2024 – Oct 2025)",
+  "about.exp2Body": "Contributed to the development of humoq.com using Next.js and Go/PostgreSQL within a microservices architecture, enhanced admin workflows for voidu.com, and developed AI-powered features for thegurume.com using NestJS and MongoDB while following Agile workflows.",
+
   "about.languagesTitle": "Languages",
-  "about.lang1": "English – B2+ (Professional)",
-  "about.lang2": "Turkish – C2 (Advanced)",
-  "about.lang3": "Russian – C2 (Advanced)",
-  "about.lang4": "Kyrgyz – Native",
+  "about.lang1": "English — Professional Working Proficiency (B2)",
+  "about.lang2": "Turkish — Advanced (C2)",
+  "about.lang3": "Russian — Upper-Intermediate (B2)",
+  "about.lang4": "Kyrgyz — Native",
+
   "projects": {
     "titleTag": "PROJECTS",
     "title": "Highlighting projects that shaped my journey as a developer and problem-solver.",
     "swipeHint": "← swipe to view more →",
+"project0": {
+  "title": "Interactive Digital Business Card Platform",
+  "subtitle": "Full-Stack Developer | Bilimon Medya ve İletişim A.Ş. | 2025 • Live Product",
+  "description": "Built a production-ready interactive digital business card platform from scratch and launched it as a live product. Developed a full-stack system using Laravel (PHP), MySQL, and a modern React (Vite) + Tailwind CSS interface. Implemented a role-based admin panel, mobile-first responsive UI, multi-language support, customizable UI options, and dynamic content management. Currently maintaining and continuously improving the product with ongoing updates and new features."
+},
 
     "project1": {
       "title": "MasAI – AI-Powered Storytelling App",
@@ -52,11 +73,11 @@
       "description": "University project: Real-time messaging with chat rooms, user auth, and live syncing using Firebase."
     }
   },
+
   "contact.header": "GET IN TOUCH WITH ME",
   "contact.subtext": "Drop me an email:",
   "contact.github": "GitHub",
   "contact.linkedin": "LinkedIn",
   "footer.backToTop": "Back to Top"
-
-
+ 
 }

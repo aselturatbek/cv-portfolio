@@ -4,8 +4,15 @@ import "../styles/Projects.scss";
 import { useTranslation } from "react-i18next";
 import { FaGithub } from "react-icons/fa";
 import {
-  SiNestjs, SiReact, SiMongodb, SiLaravel, SiMysql,
-  SiFirebase, SiNodedotjs, SiOpenai, SiSqlite
+  SiNestjs,
+  SiReact,
+  SiMongodb,
+  SiLaravel,
+  SiMysql,
+  SiFirebase,
+  SiNodedotjs,
+  SiOpenai,
+  SiSqlite
 } from "react-icons/si";
 
 import masai1 from "../assets/images/masai1.png";
@@ -20,11 +27,28 @@ import salonapp4 from "../assets/images/salonapp4.png";
 import salonapp5 from "../assets/images/salonapp5.png";
 import zchat1 from "../assets/images/zchat1.png";
 import zchat2 from "../assets/images/zchat2.png";
+import kartvizit1 from "../assets/images/kartvizit1.png";
+import kartvizit2 from "../assets/images/kartvizit2.png";
+import kartvizit3 from "../assets/images/kartvizit3.png";
 
 const Projects = () => {
   const { t } = useTranslation();
 
   const projectData = [
+    {
+      id: 0,
+      title: t("projects.project0.title"),
+      subtitle: t("projects.project0.subtitle"),
+      description: t("projects.project0.description"),
+      images: [kartvizit1, kartvizit2, kartvizit3],
+      github: "https://github.com/aselturatbek/kartvizit-be", 
+      live: "https://interaktifkartvizit.com/kartvizit/663627",
+      tech: [
+        { icon: <SiReact />, name: "React (Vite)" },
+        { icon: <SiLaravel />, name: "Laravel (PHP)" },
+        { icon: <SiMysql />, name: "MySQL" }
+      ]
+    },
     {
       id: 1,
       title: t("projects.project1.title"),
@@ -36,7 +60,7 @@ const Projects = () => {
         { icon: <SiNestjs />, name: "NestJS" },
         { icon: <SiReact />, name: "React Native" },
         { icon: <SiMongodb />, name: "MongoDB" },
-        { icon: <SiOpenai />, name: "OpenAi" }
+        { icon: <SiOpenai />, name: "OpenAI" }
       ]
     },
     {
@@ -92,7 +116,9 @@ const Projects = () => {
   return (
     <section className="projects-section-v2">
       <div className="projects-header">
-        <button className="tag-btn">{t("projects.titleTag")}</button>
+        <button type="button" className="tag-btn">
+          {t("projects.titleTag")}
+        </button>
         <h1>{t("projects.title")}</h1>
       </div>
 
@@ -114,9 +140,22 @@ const Projects = () => {
               <p className="description">{project.description}</p>
 
               <div className="project-links">
+                {/* Tek GitHub */}
                 {project.github && (
                   <a href={project.github} target="_blank" rel="noopener noreferrer">
                     <FaGithub /> GitHub
+                  </a>
+                )}
+
+                {/* Sadece project0 için Live Demo */}
+                {project.id === 0 && project.live && (
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="live-link"
+                  >
+                    Live Demo
                   </a>
                 )}
               </div>

@@ -16,9 +16,10 @@ const Navbar = () => {
     }
   };
 
-  const handleHomeClick = () => {
-    window.location.reload(); // sadece home'a özel
-  };
+const handleHomeClick = () => {
+  window.location.href = import.meta.env.BASE_URL;
+};
+
 
   return (
     <header className="navbar">

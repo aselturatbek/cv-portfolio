@@ -6,58 +6,78 @@
 
   "home.title": "Full Stack<br />Geliştirici",
   "home.intro": "Merhaba, ben <strong>Asel Turatbek Kyzy</strong><br />Yenilikçi fikirleri sade, ölçeklenebilir ve<br />kullanıcı odaklı <i>web & mobil</i> çözümlere dönüştürüyorum.",
-  
+"home.cta.cv": "CV'mi İndir",
+"home.cta.projects": "Projelerime Göz At",
+
   "about.titleTag": "HAKKIMDA",
   "about.title": "Beni Keşfet",
-  "about.viewCv": "CV'me Göz At",
-  "about.profile": "Gerçek dünya projelerini hayata geçirmeye tutkuyla bağlı bir full-stack geliştiriciyim. TÜBİTAK destekli projeler dahil birçok web ve mobil projede hem frontend hem de backend görevleri üstlendim. Takım çalışmasına açık, öğrenmeye istekli ve gelişime odaklıyım.",
+  "about.viewCv": "CV’me Göz At",
+
+  "about.profile": "Web ve mobil uygulamaların geliştirilmesi ve sürdürülebilirliğinde pratik deneyime sahip bir Full-Stack Geliştiriciyim. RESTful API geliştirme, frontend ve backend entegrasyonu ve ölçeklenebilir, kullanıcı odaklı ürünler üretme konularında yetkinim. Agile çalışma ortamlarında, kod incelemelerinde ve uçtan uca geliştirme süreçlerinde aktif rol aldım.",
 
   "about.educationTitle": "Eğitim",
-  "about.uni": "Bartın Üniversitesi, Fen Fakültesi",
+  "about.uni": "Bartın Üniversitesi – Fen Fakültesi",
   "about.degree": "Bilgisayar Teknolojisi ve Bilişim Sistemleri Lisans",
- 
-  "about.experienceTitle": "Deneyim",
-  "about.exp1": "Azerion (Ekim 2024 – Devam Ediyor)\nStajyer – humoq.com (Next.js + Go), voidu.com yönetim paneli ve thegurume.com AI özellikleri (Nest.js, MongoDB) üzerinde çalıştı.",
-  "about.exp2": "Freelance (Ekim 2024 – Aralık 2024)\nGerçek zamanlı sosyal medya uygulaması geliştirdi (React Native + Node.js + Firebase).",
+  "about.eduMeta": "2021–2025 • GNO: 3.17 / 4.00",
 
-  "about.skillsTitle": "Teknolojiler",
+  "about.skillsTitle": "Teknoloji Yığını",
+  "about.stack1": "React / React Native",
+  "about.stack2": "NestJS",
+  "about.stack3": "Node.js / Express",
+  "about.stack4": "MySQL",
+  "about.stack5": "MongoDB",
+  "about.stack6": "Firebase / Firestore",
+  "about.stack7": "HTML",
+  "about.stack8": "CSS / SCSS",
+
+  "about.experienceTitle": "Deneyim",
+  "about.exp1Title": "Web Developer | Bilimon Medya ve İletişim A.Ş. (Temmuz 2025 – Devam Ediyor)",
+  "about.exp1Body": "Ticari olarak kullanılan üretim seviyesinde interaktif dijital kartvizit platformunun geliştirilmesi ve bakımını üstlendim. Uçtan uca geliştirme süreçlerini yönettim, responsive web arayüzleri geliştirdim, WordPress projeleri özelleştirdim ve Adobe Creative Suite ile ürün akışlarını destekledim.",
+
+  "about.exp2Title": "Software Development Intern | Azerion (Ekim 2024 – Ekim 2025)",
+  "about.exp2Body": "Next.js ve Go/PostgreSQL kullanan mikroservis mimarisinde humoq.com geliştirme sürecine katkı sağladım, voidu.com yönetim paneli akışlarını iyileştirdim ve thegurume.com için NestJS ve MongoDB ile yapay zekâ destekli özellikler geliştirdim.",
+
   "about.languagesTitle": "Diller",
-  "about.lang1": "İngilizce – Profesyonel İş Yeterliliği (B2+)",
-  "about.lang2": "Türkçe – İleri Seviye (C2)",
-  "about.lang3": "Rusça – İleri Seviye (C2)",
-  "about.lang4": "Kırgızca – Ana Dil",
+  "about.lang1": "İngilizce — Profesyonel Çalışma Yeterliliği (B2)",
+  "about.lang2": "Türkçe — İleri Seviye (C2)",
+  "about.lang3": "Rusça — Orta-Üst Seviye (B2)",
+  "about.lang4": "Kırgızca — Ana Dil",
+
   "projects": {
     "titleTag": "PROJELERİM",
     "title": "Geliştirici ve problem çözücü olarak yolculuğumu şekillendiren projelerden öne çıkanlar.",
     "swipeHint": "← daha fazla görmek için kaydır →",
+"project0": {
+  "title": "İnteraktif Dijital Kartvizit Platformu",
+  "subtitle": "Full-Stack Developer | Bilimon Medya ve İletişim A.Ş. | 2025 • Canlı Ürün",
+  "description": "Kurumsal kullanım için üretim seviyesinde interaktif dijital kartvizit platformunu sıfırdan geliştirip canlıya aldım. Laravel (PHP), MySQL ve React (Vite) + Tailwind CSS kullanarak tam kapsamlı bir full-stack sistem oluşturdum. Rol bazlı yönetim paneli, mobil öncelikli ve tamamen responsive arayüz, çoklu dil desteği, özelleştirilebilir UI seçenekleri ve dinamik içerik yönetimi geliştirdim. Platform aktif olarak kullanılmakta olup bakımını ve yeni özellik geliştirmelerini sürdürmekteyim."
+},
 
     "project1": {
       "title": "MasAI – Yapay Zekâ Destekli Masal Uygulaması",
       "subtitle": "Fullstack Developer | TÜBİTAK 2209-A | 2025",
-      "description": "Çocuklara özel yapay zekâ ile masal oluşturan mobil uygulama geliştirildi."
+      "description": "Çocuklara özel yapay zekâ ile kişiselleştirilmiş masallar üreten mobil uygulama geliştirildi."
     },
     "project2": {
       "title": "EcoOil – Atık Yağ Geri Dönüşüm Uygulaması",
       "subtitle": "Frontend Developer | TÜBİTAK 2209-A | 2023–2024",
-      "description": "Harita destekli yoğunluk takibiyle atık yağ alımı planlaması sağlayan mobil uygulama."
+      "description": "Harita destekli yoğunluk analiziyle atık yağ alım süreçlerini planlayan mobil uygulama."
     },
     "project3": {
       "title": "Güzellik Salonu Yönetim Sistemi",
       "subtitle": "Fullstack Developer | Geliştiriliyor | 2025–Günümüz",
-      "description": "Randevu ve stok yönetimi sunan, mobil uyumlu panelli web uygulama. RESTful API desteği mevcut."
+      "description": "Randevu ve stok yönetimi sağlayan, mobil uyumlu panelli ve RESTful API destekli web uygulama."
     },
     "project4": {
       "title": "Gerçek Zamanlı Mesajlaşma Uygulaması",
       "subtitle": "Fullstack Developer | 2023",
-      "description": "Gerçek zamanlı sohbet odaları ve kullanıcı girişi içeren üniversite projesi (Firebase tabanlı)."
+      "description": "Gerçek zamanlı mesajlaşma, kullanıcı kimlik doğrulama ve canlı senkronizasyon içeren üniversite projesi."
     }
   },
- 
+
   "contact.header": "BENİMLE İLETİŞİME GEÇ",
   "contact.subtext": "Bana bir e-posta gönder:",
   "contact.github": "GitHub",
   "contact.linkedin": "LinkedIn",
   "footer.backToTop": "Başa Dön"
-
-
 }

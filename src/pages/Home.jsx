@@ -11,10 +11,13 @@ import {
   SiTypescript, SiNestjs, SiMongodb,
   SiMysql, SiFirebase, SiJira
 } from "react-icons/si";
-import "./About.jsx";
+
 import About from "./About.jsx";
 import Projects from "./Projects.jsx";
 import Contact from "./Contact.jsx";
+
+// ✅ CV dosyanı public klasörüne koy: /public/Asel_Turatbek_CV.pdf
+const CV_URL = `${import.meta.env.BASE_URL}AselTuratbekKyzy-CV.pdf`;
 
 
 const technologies = [
@@ -43,6 +46,7 @@ const Home = () => {
               Full Stack<br />Developer
             </Trans>
           </h1>
+
           <p>
             <Trans i18nKey="home.intro">
               Hi, I’m <strong>Asel Turatbek Kyzy</strong><br />
@@ -50,7 +54,32 @@ const Home = () => {
               and user-focused <i>web & mobile</i> solutions.
             </Trans>
           </p>
+
+          {/* ✅ CTA BUTONLAR */}
+          <div className="home-cta">
+            <a
+              className="btn btn-primary"
+              href={CV_URL}
+              download="Asel_Turatbek_CV.pdf"
+            >
+              {t("home.cta.cv")}
+            </a>
+
+            <button
+              type="button"
+              className="btn btn-outline"
+              onClick={() => {
+                const el = document.getElementById("projects");
+                el?.scrollIntoView({ behavior: "smooth", block: "start" });
+                window.history.replaceState(null, "", "#projects");
+              }}
+            >
+              {t("home.cta.projects")}
+            </button>
+
+          </div>
         </div>
+
         <div className="home-image">
           <img src={devImage} alt="Asel" />
         </div>
@@ -68,6 +97,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       <section id="about"><About /></section>
       <section id="projects"><Projects /></section>
       <section id="contact"><Contact /></section>
